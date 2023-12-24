@@ -12,9 +12,22 @@ body {
   padding: 20px;
 }
 
-.goals, .week {
+h1 {
+  grid-column: span 2;
+}
+
+.goals, .other, .week {
   border: 1px solid #ccc;
   padding: 10px;
+}
+
+.goals ul, .other ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goals li, .other li {
+  margin-bottom: 10px;
 }
 
 .week {
@@ -26,6 +39,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 
 @media (max-width: 600px) {
   .planner {
