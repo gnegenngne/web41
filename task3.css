@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Challenge</title>
+    <style>
+        li:first-child {
+            font-weight: bold;
+        }
+
+        a:last-child {
+            color: red;
+        }
+
+        input[disabled] {
+            background-color: grey;
+        }
+
+        div > p {
+            font-weight: bold;
+        }
+
+        a[href^="https"] {
+            color: green;
+        }
+
+
+        input[type="text"] {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- решта вашого HTML-коду тут -->
+</body>
+</html>
