@@ -1,0 +1,49 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #0077cc;
+}
+
+form {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #005faa;
+}
+
+/* Додаткові стилі для мобільних пристроїв */
+@media screen and (max-width: 600px) {
+    form {
+        width: 100%;
+    }
+}
