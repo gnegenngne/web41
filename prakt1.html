@@ -1,1 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстраційна форма</title>
+</head>
+<body>
 
+    <h2>Реєстраційна форма</h2>
+
+    <form action="https://webhook.site/9227c1ef-1eae-4e66-8f2b-57fd97d56096" method="post">
+        <label for="username">Ім'я користувача:</label>
+        <input type="text" id="username" name="username" required>
+
+        <br>
+
+        <label for="email">Адреса електронної пошти:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+
+        <br>
+
+        <label for="confirmPassword">Підтвердіть пароль:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <br>
+
+        <label for="dob">Дата народження:</label>
+        <input type="date" id="dob" name="dob">
+
+        <br>
+
+        <label for="gender">Стать:</label>
+        <select id="gender" name="gender">
+            <option value="male">Чоловік</option>
+            <option value="female">Жінка</option>
+            <option value="other">Інше</option>
+        </select>
+
+        <br>
+
+        <input type="submit" value="Зареєструватися">
+    </form>
+
+</body>
+</html>
