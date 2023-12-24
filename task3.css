@@ -29,9 +29,25 @@
         input[type="text"] {
             border: 1px solid blue;
         }
+
+        li:first-child,
+        li:last-child {
+            font-size: 24px;
+        }
+
+        div p {
+            font-size: 16px;
+        }
+
+        input:checked {
+            background-color: lightblue;
+        }
+
+
+        li > a {
+            text-decoration: underline;
+        }
+
     </style>
 </head>
-<body>
-    <!-- решта вашого HTML-коду тут -->
-</body>
 </html>
