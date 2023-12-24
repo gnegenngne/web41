@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Планер</title>
+</head>
+<body>
+  <div class="planner">
+    <div class="goals">
+      <h2>Цілі</h2>
+      <ul>
+        <li><input type="text" placeholder="Ціль 1"></li>
+        <li><input type="text" placeholder="Ціль 2"></li>
+        <!-- Додайте більше полів за необхідністю -->
+      </ul>
+    </div>
+
+    <div class="week">
+      <h2>Дні тижня</h2>
+      <div class="day">Пн <input type="checkbox"></div>
+      <div class="day">Вт <input type="checkbox"></div>
+      <div class="day">Ср <input type="checkbox"></div>
+      <div class="day">Чт <input type="checkbox"></div>
+      <div class="day">Пт <input type="checkbox"></div>
+      <div class="day">Сб <input type="checkbox"></div>
+      <!-- Можете розширити на більше або менше кількість днів, якщо потрібно -->
+    </div>
+  </div>
+</body>
+</html>
