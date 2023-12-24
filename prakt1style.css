@@ -41,7 +41,6 @@ input[type="submit"]:hover {
     background-color: #005faa;
 }
 
-/* Додаткові стилі для мобільних пристроїв */
 @media screen and (max-width: 600px) {
     form {
         width: 100%;
