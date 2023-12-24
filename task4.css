@@ -27,7 +27,6 @@ body {
   align-items: center;
 }
 
-/* Додайте медіазапит для реагування на зміну розмірів екрану */
 @media (max-width: 600px) {
   .planner {
     grid-template-columns: 1fr;
