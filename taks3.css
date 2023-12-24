@@ -1,0 +1,26 @@
+
+li:first-child {
+    font-weight: bold;
+}
+
+a:last-child {
+    color: red;
+}
+
+input[disabled] {
+    background-color: grey;
+}
+
+
+div > p {
+    font-weight: bold;
+}
+
+
+a[href^="https"] {
+    color: green;
+}
+
+input[type="text"] {
+    border: 1px solid blue;
+}
